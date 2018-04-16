@@ -1,0 +1,28 @@
+{
+  "name": "wot.me-cloud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "lodash": "^4.17.5",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.0.5",
+    "mongoose": "^5.0.11",
+    "morgan": "~1.9.0",
+    "msgpack5": "^4.0.2",
+    "node-json2html": "^1.2.0",
+    "socket.io": "^2.1.0",
+    "ws": "^5.1.1"
+  }
+}
